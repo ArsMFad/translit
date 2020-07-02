@@ -20,6 +20,12 @@ for (var i = 0; i < 33; i++){
 }
 
 
+function showCopied() {
+	cpd.style.opacity = 1;
+	setTimeout(function() {cpd.style.opacity = 0;}, 1500);
+}
+
+
 function copyClip() {
 	var cptx = document.getElementById("output");
 	cptx.select();
@@ -27,7 +33,7 @@ function copyClip() {
 }
 
 
-btn.addEventListener('click', function() {
+function makeMagic() {
 	output.value = "";
 	s = input.value;
 
@@ -46,4 +52,17 @@ btn.addEventListener('click', function() {
 	}
 
 	copyClip();
+	showCopied();
+}
+
+
+input.addEventListener('keydown', function(e) {
+	if (e.key == "Enter") {
+		makeMagic();
+	}
+});
+
+
+btn.addEventListener('click', function() {
+	makeMagic();
 });

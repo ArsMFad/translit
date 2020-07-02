@@ -38,3 +38,12 @@ textarea {
 	vertical-align: middle;
 	border: 2px solid black;
 }
+
+.copied {
+	font-size: 25px;
+	position: absolute;
+	right: 25px;
+	border: 2px solid black;
+	opacity: 0;
+	transition: 0.7s;
+}
