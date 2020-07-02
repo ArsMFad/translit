@@ -15,6 +15,11 @@ h2 {
 	margin: auto;
 }
 
+p {
+	font-size: 20px;
+	color: red;
+}
+
 textarea {
 	margin: auto;
 	width: 500px;
