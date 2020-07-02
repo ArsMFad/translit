@@ -1,0 +1,33 @@
+main {
+	display: flex;
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+}
+
+.texta {
+	margin: auto;
+}
+
+textarea {
+	margin: auto;
+	width: 500px;
+	height: 400px;
+	resize: none;
+}
+
+.magic {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 20px;
+	vertical-align: middle;
+	border: 2px solid black;
+}
